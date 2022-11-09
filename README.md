@@ -128,6 +128,47 @@ $ ./haskell-tut
 
 <br>
 
+# Windows OS 에서 Haskell Install 
+
+https://www.haskell.org/ghcup/
+
+- Windows PowerShell 에서 실행하기
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest https://www.haskell.org/ghcup/sh/bootstrap-haskell.ps1 -UseBasicParsing))) -ArgumentList $true
+
+```
+
+<br>
+
+- 기타 
+
+```
+All done!
+
+In a new powershell or cmd.exe session, now you can...
+
+Start a simple repl via:
+  ghci
+
+Start a new haskell project in the current directory via:
+  cabal init --interactive
+
+Install other GHC versions and tools via:
+  ghcup list
+  ghcup install <tool> <version>
+
+To install system libraries and update msys2/mingw64,
+open the "Mingw haskell shell"
+and the "Mingw package management docs"
+desktop shortcuts.
+
+If you are new to Haskell, check out https://www.haskell.org/ghcup/steps/
+Press any key to exit
+
+```
+
+<br>
+
 # haskell code 예시
 
 ```
