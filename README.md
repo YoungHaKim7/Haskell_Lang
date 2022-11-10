@@ -66,6 +66,16 @@ Prelude> :l haskell-tut.hs
 [1 of 1] Compiling Main             ( haskell-tut.hs, interpreted )
 Ok, one module loaded.
 
+
+종료시키는 방법 2가지 :q  :quit
+
+ghci> :q
+Leaving GHCi.
+
+
+ghci> :quit
+Leaving GHCi.
+
 ```
 
 # Lunar Vim LSP 설치를 위해 미리 설치 필요
