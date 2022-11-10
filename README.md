@@ -217,6 +217,12 @@ https://economiceco.tistory.com/14472
 
 <br>
 
+# 다른 사람의 Haskell 한글하스켈 강의
+
+https://youtube.com/playlist?list=PL5aSjzJqCaPaoi8yC2w549FsVgvXW5xFW
+
+<br>
+
 <hr>
 
 # 모든 언어를 무료로 공부할 수 있다. 
