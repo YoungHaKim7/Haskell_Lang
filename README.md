@@ -77,6 +77,9 @@ ghci> :quit
 Leaving GHCi.
 
 ```
+출처: https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/ghci-commands.html
+
+<br>
 
 # Lunar Vim LSP 설치를 위해 미리 설치 필요
 
