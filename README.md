@@ -1,3 +1,11 @@
+# Haskell \_ Wiki
+
+- 공부할 자료 많음
+
+https://wiki.haskell.org/Haskell
+
+<br>
+
 # FizzBuzz - You Suck at Coding [0]
 
 ## Ben Awad
@@ -77,6 +85,7 @@ ghci> :quit
 Leaving GHCi.
 
 ```
+
 출처: https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/ghci-commands.html
 
 <br>
@@ -141,11 +150,12 @@ $ ./haskell-tut
 
 <br>
 
-# Windows OS 에서 Haskell Install 
+# Windows OS 에서 Haskell Install
 
 https://www.haskell.org/ghcup/
 
 - Windows PowerShell 에서 실행하기
+
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest https://www.haskell.org/ghcup/sh/bootstrap-haskell.ps1 -UseBasicParsing))) -ArgumentList $true
 
@@ -153,7 +163,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager
 
 <br>
 
-- 기타 
+- 기타
 
 ```
 All done!
@@ -214,7 +224,6 @@ $ ./haskell-tut
 
 https://economiceco.tistory.com/14472
 
-
 <br>
 
 # 다른 사람의 Haskell 한글하스켈 강의
@@ -225,7 +234,7 @@ https://youtube.com/playlist?list=PL5aSjzJqCaPaoi8yC2w549FsVgvXW5xFW
 
 <hr>
 
-# 모든 언어를 무료로 공부할 수 있다. 
+# 모든 언어를 무료로 공부할 수 있다.
 
 출처 : stackoverflow.com
 알게 된 링크
@@ -234,12 +243,11 @@ https://youtube.com/playlist?list=PL5aSjzJqCaPaoi8yC2w549FsVgvXW5xFW
 
 https://stackoverflow.com/questions/38683512/why-git-shallow-clone-can-have-more-commits-than-depth/38683775#38683775
 
-
 - Github 주소
 
 https://github.com/EbookFoundation/free-programming-books
 
-- EbookFoundation  
+- EbookFoundation
 
 https://ebookfoundation.github.io/free-programming-books/
 

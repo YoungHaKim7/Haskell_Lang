@@ -1,0 +1,14 @@
+name:                gtk-intro
+version:             0.1.0.0
+license:             MPL-2.0
+license-file:        LICENSE
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable gtk-intro
+  main-is:              Main.hs
+  build-depends:        base >=4.11 && <4.12
+                        , gi-gtk
+                        , haskell-gi-base
+  hs-source-dirs:       src
+  default-language:     Haskell2010
