@@ -24,6 +24,12 @@ http://learnyouahaskell.com/chapters
 
 <br>
 
+# Introduction to Cabal
+
+https://youtu.be/a7R-2vtPLDM
+
+<br>
+
 # Haskell_Lang
 
 - 설치하는 법(macOS 기준)
