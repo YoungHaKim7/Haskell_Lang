@@ -30,6 +30,14 @@ https://youtu.be/a7R-2vtPLDM
 
 <br>
 
+# haskell 관련 파일이 잘 설치되어 있는지 한눈에 확인가능
+
+```
+$ ghcup tui
+```
+
+<br>
+
 # Haskell_Lang
 
 - 설치하는 법(macOS 기준)
