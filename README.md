@@ -1,3 +1,11 @@
+# Haskell CheatSheet
+
+- 버젼별로 다 있다.
+
+https://hackage.haskell.org/package/CheatSheet-2.9
+
+<br>
+
 # Haskell \_ Wiki
 
 - 공부할 자료 많음
