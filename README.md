@@ -14,6 +14,12 @@ https://wiki.haskell.org/Haskell
 
 <br>
 
+# Haskelllings
+
+https://github.com/MondayMorningHaskell/haskellings
+
+<br>
+
 # FizzBuzz - You Suck at Coding [0]
 
 ## Ben Awad
@@ -72,7 +78,7 @@ brew install ghc cabal-install haskell-stack
 
 # vim에서 vista-plugin쓸 때 필요한 hasktags설치 방법
 
-https://hackage.haskell.org/package/hasktags﻿
+https://hackage.haskell.org/package/hasktags
 
 <br>
 
