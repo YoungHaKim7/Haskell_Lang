@@ -62,6 +62,7 @@ expresson9 = 30048834
 -- 3.1439489578
 -- ghci> :t expresson8
 -- expresson8 :: Double
+-- ghci> :t expresson9
 -- expresson9 :: Word32
 -- ghci> expresson9
 -- 30048834
