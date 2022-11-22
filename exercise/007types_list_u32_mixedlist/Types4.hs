@@ -1,3 +1,5 @@
+-- https://github.com/MondayMorningHaskell/haskellings/blob/master/exercises/basics/Types4.hs
+
 module Types4 where
 import Data.Binary (Word16)
 
