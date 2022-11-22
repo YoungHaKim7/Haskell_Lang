@@ -1,4 +1,4 @@
--- https://github.com/MondayMorningHaskell/haskellings/blob/master/exercises/basics/Types5.hsmodule Types5 where
+-- https://github.com/MondayMorningHaskell/haskellings/blob/master/exercises/basics/Types5.hs
 
 module Types5 where
 
