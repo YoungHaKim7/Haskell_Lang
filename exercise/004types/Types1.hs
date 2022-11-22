@@ -1,7 +1,9 @@
+-- https://github.com/MondayMorningHaskell/haskellings
 -- https://github.com/MondayMorningHaskell/haskellings/blob/master/exercises/basics/Types1.hs
 
+
 module Types1 where
-import Data.Binary (Word16, Word8)
+import Data.Binary (Word32, Word16, Word8)
 
 expresson1 :: Int
 expresson1 = 1
@@ -23,6 +25,9 @@ expresson7 = 200
 
 expresson8 :: Double
 expresson8 = 3.1439489578
+
+expresson9 :: Word32
+expresson9 = 30048834
 
 
 {-
@@ -57,3 +62,6 @@ expresson8 = 3.1439489578
 -- 3.1439489578
 -- ghci> :t expresson8
 -- expresson8 :: Double
+-- expresson9 :: Word32
+-- ghci> expresson9
+-- 30048834
