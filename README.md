@@ -70,6 +70,12 @@ brew install ghc cabal-install haskell-stack
 
 ```
 
+# vim에서 vista-plugin쓸 때 필요한 hasktags설치 방법
+
+https://hackage.haskell.org/package/hasktags﻿
+
+<br>
+
 # ghci 간단한 사용법
 
 ```
