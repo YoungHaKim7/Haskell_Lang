@@ -208,3 +208,73 @@ xs :: [Char] = _
 ```
 
 <br>
+
+# Syntax for : break commands
+
+```
+:break <identifier>
+:break <line>
+:break <line> <column>
+:break <module> <line>
+:break <module> <line> <column>
+```
+
+<br>
+
+- Demo
+
+```
+$ cat Main.hs
+
+
+import Sort
+
+main :: IO ()
+main = putStrLn $ show $ sort [6,2,4,1,9]
+```
+
+- Demo2
+
+```
+$ stack repl Main.hs
+
+
+Warning: Couldn't find a component for file target /Main.hs. This means that the correct ghc options might not be used.
+         Attempting to load the file anyway.
+Configuring GHCi with the following packages:
+GHCi, version 9.0.2: https://www.haskell.org/ghc/  :? for help
+[1 of 2] Compiling Sort             ( Sort.hs, interpreted )
+[2 of 2] Compiling Main             ( /Main.hs, interpreted )
+Ok, two modules loaded.
+Loaded GHCi configuration from /T/haskell-stack-ghci/1c76883d/ghci-script
+ghci> :br sort
+Breakpoint 0 activated at Sort.hs:4:11-12
+Breakpoint 1 activated at Sort.hs:5:15-32
+ghci> :break insert
+Cannot set breakpoint on ‘insert’: ‘insert’ not in scope
+ghci> :break Sort.insert
+Breakpoint 2 activated at Sort.hs:8:15-17
+Breakpoint 3 activated at Sort.hs:9:19-23
+Breakpoint 4 activated at Sort.hs:9:31-36
+Breakpoint 5 activated at Sort.hs:10:31-45
+ghci> :br nonexisting
+Cannot set breakpoint on ‘nonexisting’: ‘nonexisting’ not in scope
+ghci> :break 3
+No breakpoints found at that location.
+ghci> :break 4
+Breakpoint 6 activated at /Main.hs:4:8-41
+ghci> :break 19
+No breakpoints found at that location.
+ghci> :break 4 19
+Breakpoint 7 activated at /Main.hs:4:19-41
+ghci> :break 4 20
+Breakpoint 7 was already set at /Main.hs:4:19-41
+ghci> :break Sort 8
+Breakpoint 2 was already set at Sort.hs:8:15-17
+ghci> :q
+Leaving GHCi.
+```
+
+<br>
+
+<br>
