@@ -148,3 +148,63 @@ ghci>
 ```
 
 <br>
+
+# Execute a Default Command after a Breakpoint is hit
+
+```
+:set stop [<breakpoint-no>] <command>
+```
+
+If <breakpoint-no> is omiited, the <command> is executed for all breakpoint
+
+```
+:set stop :list
+```
+
+- Recommendation: <br>
+  Put :set stop :list in your .ghci file
+
+ex)
+
+```
+$ stack repl Sort.hs
+
+Warning: Couldn't find a component for file target /Sort.hs. This means that the correct ghc options might not be used.
+         Attempting to load the file anyway.
+Configuring GHCi with the following packages:
+GHCi, version 9.0.2: https://www.haskell.org/ghc/  :? for help
+[1 of 1] Compiling Sort             ( /Sort.hs, interpreted )
+Ok, one module loaded.
+Loaded GHCi configuration from /c9c6f3a8/ghci-script
+ghci> :b 5
+Breakpoint 0 activated at /Sort.hs:5:15-32
+ghci> sort "auto"
+"Stopped in Sort.sort, /Sort.hs:5:15-32
+_result :: [Char] = _
+x :: Char = 'a'
+xs :: [Char] = _
+[/Sort.hs:5:15-32] ghci> :list
+4  sort [] = []
+5  sort (x:xs) = insert x (sort xs)
+6
+[/Sort.hs:5:15-32] ghci> :set stop :list
+[/Sort.hs:5:15-32] ghci> :cont
+Stopped in Sort.sort, /Sort.hs:5:15-32
+_result :: [Char] = _
+x :: Char = 'u'
+xs :: [Char] = _
+4  sort [] = []
+5  sort (x:xs) = insert x (sort xs)
+6
+[/Sort.hs:5:15-32] ghci> :cont
+Stopped in Sort.sort, /Sort.hs:5:15-32
+_result :: [Char] = _
+x :: Char = 't'
+xs :: [Char] = _
+4  sort [] = []
+5  sort (x:xs) = insert x (sort xs)
+6
+[/Sort.hs:5:15-32] ghci>
+```
+
+<br>
