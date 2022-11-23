@@ -12,6 +12,10 @@ https://github.com/rudymatela/concise-cheat-sheets
 
 <br>
 
+# Haskell In 3 hours
+
+https://www-ps.informatik.uni-kiel.de/~sebf/haskellIn3hours.pdf
+
 
 # Haskell \_ Wiki
 
