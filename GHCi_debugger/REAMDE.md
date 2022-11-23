@@ -275,6 +275,89 @@ ghci> :q
 Leaving GHCi.
 ```
 
+<hr>
+
+- Syntax for : break commands
+
 <br>
+--  Only identifiers in scope can be used. <br>
+-- If we miss the exact breakpoint, then the next one to the left is used. <br>
+--  Cannot set breakpoint on type specifications <br>
+
+<br>
+
+# Demo
+
+```
+$ stack repl Sort.hs
+
+Warning: Couldn't find a component for file target /Sort.hs. This means that the correct ghc options might not be used.
+         Attempting to load the file anyway.
+Configuring GHCi with the following packages:
+GHCi, version 9.0.2: https://www.haskell.org/ghc/  :? for help
+[1 of 1] Compiling Sort             ( /Sort.hs, interpreted )
+Ok, one module loaded.
+Loaded GHCi configuration from /T/haskell-stack-ghci/c9c6f3a8/ghci-script
+ghci> :b 5
+Breakpoint 0 activated at /Sort.hs:5:15-32
+ghci> sort [3,2,1]
+Stopped in Sort.sort, /Sort.hs:5:15-32
+_result :: [a] = _
+x :: a = _
+xs :: [a] = [_,_]
+[/Sort.hs:5:15-32] ghci> xs
+
+<interactive>:3:1: error:
+    • No instance for (Show a) arising from a use of ‘print’
+      Cannot resolve unknown runtime type ‘a’
+      Use :print or :force to determine these types
+      Relevant bindings include it :: [a] (bound at <interactive>:3:1)
+      These potential instances exist:
+        instance Show Ordering -- Defined in ‘GHC.Show’
+        instance Show a => Show (Maybe a) -- Defined in ‘GHC.Show’
+        instance Show Integer -- Defined in ‘GHC.Show’
+        ...plus 23 others
+        ...plus 12 instances involving out-of-scope types
+        (use -fprint-potential-instances to see them all)
+    • In a stmt of an interactive GHCi command: print it
+[/Sort.hs:5:15-32] ghci> xs::[Integer]
+
+<interactive>:4:1: error:
+    • Couldn't match type ‘a’ with ‘Integer’
+      Expected: [Integer]
+        Actual: [a]
+        ‘a’ is untouchable
+          inside the constraints: ()
+          bound by the inferred type of it :: [Integer]
+          at <interactive>:4:1-13
+      ‘a’ is an interactive-debugger skolem
+    • In the expression: xs :: [Integer]
+      In an equation for ‘it’: it = xs :: [Integer]
+[/Sort.hs:5:15-32] ghci> :ab
+ghci> sort [3,2,1::Int]
+Stopped in Sort.sort, /Sort.hs:5:15-32
+_result :: [Int] = _
+x :: Int = 3
+xs :: [Int] = [2,1]
+[/Sort.hs:5:15-32] ghci> sort "abc"
+"Stopped in Sort.sort, /Sort.hs:5:15-32
+_result :: [Char] = _
+x :: Char = 'a'
+xs :: [Char] = _
+... [/Sort.hs:5:15-32] ghci> xs
+"bc"
+... [/Sort.hs:5:15-32] ghci> :show context
+--> sort [3,2,1::Int]
+  Stopped in Sort.sort, /Sort.hs:5:15-32
+--> sort "abc"
+  Stopped in Sort.sort, /Sort.hs:5:15-32
+... [/Sort.hs:5:15-32] ghci> :ab
+[/Sort.hs:5:15-32] ghci> :show context
+--> sort [3,2,1::Int]
+  Stopped in Sort.sort, /Sort.hs:5:15-32
+[/Sort.hs:5:15-32] ghci> :ab
+ghci>
+
+```
 
 <br>
