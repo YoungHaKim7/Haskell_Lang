@@ -6,6 +6,13 @@ https://hackage.haskell.org/package/CheatSheet-2.9
 
 <br>
 
+# Haskell CheatSheet 2
+
+https://github.com/rudymatela/concise-cheat-sheets
+
+<br>
+
+
 # Haskell \_ Wiki
 
 - 공부할 자료 많음
