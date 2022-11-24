@@ -15,8 +15,30 @@ $ ghci test.hs
 
 ```
 
+# vim 창 나눌때 WindowsOS gVim에서 PowerShell불러오기
+
+```
+:terminal powershell.exe
+```
 
 <br>
+
+- A Vim plugin that opens an interactive terminal in a buffer for running programs
+
+https://github.com/tc50cal/vim-terminal
+
+
+<br>
+
+# WindowsOS 실행창에서 Windows Terminal 파로 불러오기(파워셀 내장됨)바로 불러오기
+
+- win + r
+
+```
+wt.exe
+```
+
+
 
 # Haskell CheatSheet
 
