@@ -527,7 +527,13 @@ Leaving GHCi.
 # Beware of Scope: Summary
 
 - Stopping at a breakpoint doesn't change the current GHCi scope
+
+```
 - Use :module *<ModuleName>
+
+```
+
+<br>
 
 ```
 
