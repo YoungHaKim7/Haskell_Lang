@@ -42,6 +42,8 @@ wt.exe
 
 - 실행할 때 'ctrl + shift + enter' 하면 그냥 엔터랑 다르게 권리자 권한으로 실행된다.
 
+ https://zkim0115.tistory.com/1629
+
 <br>
 
 <hr>
