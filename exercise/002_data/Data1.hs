@@ -4,7 +4,7 @@ module Data1 where
 import GHC.Show
 
 data Adult = Adult String String Int String
-data Child = Child String Int Int }
+data Child = Child String Int Int 
 
 adult1 :: Adult
 adult1 = Adult "John" "Smith" 45 "Lawyer"

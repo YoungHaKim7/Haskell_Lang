@@ -1,3 +1,23 @@
+# vim 창 나누기
+```
+:vs 좌우로 나누기
+
+:sp 상단하단 나누기
+
+:terminal
+
+$ stack repl test.hs
+
+or
+
+$ ghci test.hs
+
+
+```
+
+
+<br>
+
 # Haskell CheatSheet
 
 - 버젼별로 다 있다.
