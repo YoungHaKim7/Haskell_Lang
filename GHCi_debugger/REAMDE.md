@@ -524,3 +524,44 @@ Leaving GHCi.
 
 <br>
 
+# Beware of Scope: Summary
+
+- Stopping at a breakpoint doesn't change the current GHCi scope
+- Use :module *<ModuleName>
+
+```
+
+$ stack repl Main.hs 
+
+Warning: Couldn't find a component for file target /Main.hs. This means that the correct ghc options might not be used.
+         Attempting to load the file anyway.
+Configuring GHCi with the following packages: 
+GHCi, version 9.0.2: https://www.haskell.org/ghc/  :? for help
+[1 of 2] Compiling Sort             ( Sort.hs, interpreted )
+[2 of 2] Compiling Main             ( /Main.hs, interpreted )
+Ok, two modules loaded.
+Loaded GHCi configuration from /T/haskell-stack-ghci/1c76883d/ghci-script
+ghci> :b Sort 5
+:b Sort 5
+Breakpoint 0 activated at Sort.hs:5:15-32
+ghci> main
+main
+Stopped in Sort.sort, Sort.hs:5:15-32
+_result :: [Integer] = _
+x :: Integer = 6
+xs :: [Integer] = [2,4,1,9]
+[Sort.hs:5:15-32] ghci> :t insert
+:t insert
+
+<interactive>:1:1: error: Variable not in scope: insert
+[Sort.hs:5:15-32] ghci> :t sort
+:t sort
+sort :: Ord a => [a] -> [a]
+[Sort.hs:5:15-32] ghci> :module *Sort
+:module *Sort
+[Sort.hs:5:15-32] ghci> :t insert
+:t insert
+insert :: Ord a => a -> [a] -> [a]
+[Sort.hs:5:15-32] ghci> 
+
+```
