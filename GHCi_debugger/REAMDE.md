@@ -405,3 +405,18 @@ main :: IO ()
 main = putStrLn $ show $ sort [6,2,4,1,9]
 ghci>
 ```
+
+# Help - My breakpoints don't work
+
+- Beware of CAFs
+
+-- main = putStrLn $ show $ sort [6, 2, 4, 1, 9] is a CAF! <br>
+
+-- CAFs - C onstant  A  plicaton   F  orms.<br>
+
+-- GHCi evaluate CAFs only once, result is retained!<br>
+
+-- :set +r Result of CAF is not retained.<br>
+
+-- BUG  :set +r doesn't work!<br>
+

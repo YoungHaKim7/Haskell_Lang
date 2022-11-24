@@ -63,3 +63,21 @@ insert x (y:ys) | x < y     = x:y:ys
 -- acr"
 -- [Sort.hs:5:15-32] ghci> :q
 -- Leaving GHCi.
+--
+--
+-- ghci .\Main.hs
+-- GHCi, version 9.2.5: https://www.haskell.org/ghc/  :? for help
+-- [1 of 2] Compiling Sort             ( Sort.hs, interpreted )
+-- [2 of 2] Compiling Main             ( Main.hs, interpreted )
+-- Ok, two modules loaded.
+-- ghci> :b Sort 4
+-- Breakpoint 0 activated at Sort.hs:4:11-12
+-- ghci> main
+-- Stopped in Sort.sort, Sort.hs:4:11-12
+-- _result :: [a] = _
+-- [Sort.hs:4:11-12] ghci> :cont
+-- [1,2,4,6,9]
+-- ghci> :b Sort 5
+-- Breakpoint 1 activated at Sort.hs:5:15-32
+-- ghci> main
+-- [1,2,4,6,9]
