@@ -30,6 +30,8 @@ https://github.com/tc50cal/vim-terminal
 
 <br>
 
+<hr>
+
 # WindowsOS 실행창에서 Windows Terminal (파워셀 내장됨)바로 실행하기
 
 - win + r
@@ -37,6 +39,12 @@ https://github.com/tc50cal/vim-terminal
 ```
 wt.exe
 ```
+
+- 실행할 때 'ctrl + shift + enter' 하면 그냥 엔터랑 다르게 권리자 권한으로 실행된다.
+
+<br>
+
+<hr>
 
 # WIndows PowerShell Command
 
