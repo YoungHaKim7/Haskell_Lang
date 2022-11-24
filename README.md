@@ -92,6 +92,12 @@ https://github.com/MondayMorningHaskell/haskellings
 
 <br>
 
+# Haskell from Scratch
+
+https://youtube.com/playlist?list=PLxj9UAX4Em-Ij4TKwKvo-SLp-Zbv-hB4B
+
+<br>
+
 # FizzBuzz - You Suck at Coding [0]
 
 ## Ben Awad
