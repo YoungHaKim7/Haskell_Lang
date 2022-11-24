@@ -24,6 +24,7 @@ insert x (y:ys) | x < y     = x:y:ys
 
 ```
 
+
 <br>
 
 <hr>
@@ -361,3 +362,46 @@ ghci>
 ```
 
 <br>
+
+# GHCi_debugger 안에서도 !이걸 써서 터미널 명령어가 가능하다. ㅎ
+
+- Windows OS 일 경우 type으로 파일 안에 코드를 볼 수 있으니
+```
+ghci>!:type Main.hs
+
+```
+
+- macOS 일 경우는 cat 또는 bat으로 가능하니깐
+
+```
+ghci>!:cat Main.hs
+
+```
+
+<br>
+
+```
+001_sort_precalculated> ghci .\Main.hs
+
+GHCi, version 9.2.5: https://www.haskell.org/ghc/  :? for help
+[1 of 2] Compiling Sort             ( Sort.hs, interpreted )
+[2 of 2] Compiling Main             ( Main.hs, interpreted )
+Ok, two modules loaded.
+ghci> :b Sort 4
+Breakpoint 0 activated at Sort.hs:4:11-12
+ghci> !:cat Main.hs
+
+<interactive>:2:1: error: parse error on input ‘!:’
+ghci> !:type Main.hs
+
+<interactive>:3:1: error: parse error on input ‘!:’
+ghci> :!cat Main.hs
+'cat'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+ghci> :!type Main.hs
+import Sort
+
+main :: IO ()
+main = putStrLn $ show $ sort [6,2,4,1,9]
+ghci>
+```
