@@ -38,6 +38,15 @@ https://github.com/tc50cal/vim-terminal
 wt.exe
 ```
 
+# WIndows PowerShell Command
+
+
+https://learn.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=powershell
+
+<br>
+
+<hr>
+
 
 
 # Haskell CheatSheet
