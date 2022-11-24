@@ -420,3 +420,73 @@ ghci>
 
 -- BUG  :set +r doesn't work!<br>
 
+<br>
+
+# <interactive>:3:1: error:
+## ? No instance for (Show a) arising from a use of ‘print’ Cannot resolve unknown runtime type ‘a’
+
+```
+PS D:\001_sort_precalculated>
+ ghci .\Sort.hs
+GHCi, version 9.2.5: https://www.haskell.org/ghc/  :? for help
+[1 of 1] Compiling Sort             ( Sort.hs, interpreted )
+Ok, one module loaded.
+ghci> :b 5
+Breakpoint 0 activated at Sort.hs:5:15-32
+ghci> sort [3,2,1]
+Stopped in Sort.sort, Sort.hs:5:15-32
+_result :: [a] = _
+x :: a = _
+xs :: [a] = [_,_]
+[Sort.hs:5:15-32] ghci> xs
+
+<interactive>:3:1: error:
+    ? No instance for (Show a) arising from a use of ‘print’
+      Cannot resolve unknown runtime type ‘a’
+      Use :print or :force to determine these types
+      Relevant bindings include it :: [a] (bound at <interactive>:3:1)
+      These potential instances exist:
+        instance Show Ordering -- Defined in ‘GHC.Show’
+        instance Show a => Show (Maybe a) -- Defined in ‘GHC.Show’
+        instance Show Integer -- Defined in ‘GHC.Show’
+        ...plus 23 others
+        ...plus 13 instances involving out-of-scope types
+        (use -fprint-potential-instances to see them all)
+    ? In a stmt of an interactive GHCi command: print it
+[Sort.hs:5:15-32] ghci> xs::[Integer]
+
+<interactive>:4:1: error:
+    ? Couldn't match type ‘a’ with ‘Integer’
+      Expected: [Integer]
+        Actual: [a]
+      ‘a’ is an interactive-debugger skolem
+    ? In the expression: xs :: [Integer]
+      In an equation for ‘it’: it = xs :: [Integer]
+[Sort.hs:5:15-32] ghci> :ab
+ghci> sort [3,2,1::Int]
+Stopped in Sort.sort, Sort.hs:5:15-32
+_result :: [Int] = _
+x :: Int = 3
+xs :: [Int] = [2,1]
+[Sort.hs:5:15-32] ghci> xs
+[2,1]
+[Sort.hs:5:15-32] ghci> sort "abc"
+"Stopped in Sort.sort, Sort.hs:5:15-32
+_result :: [Char] = _
+x :: Char = 'a'
+xs :: [Char] = _
+... [Sort.hs:5:15-32] ghci> xs
+"bc"
+... [Sort.hs:5:15-32] ghci> :show context
+--> sort [3,2,1::Int]
+  Stopped in Sort.sort, Sort.hs:5:15-32
+--> sort "abc"
+  Stopped in Sort.sort, Sort.hs:5:15-32
+... [Sort.hs:5:15-32] ghci> :ab
+[Sort.hs:5:15-32] ghci> :ab
+ghci> :q
+Leaving GHCi.
+
+```
+
+<br>
