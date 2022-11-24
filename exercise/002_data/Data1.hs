@@ -20,6 +20,8 @@ child2 = Child "Stephanie" 12 6
 
 -- ghci> :t Adult
 -- Adult :: String -> String -> Int -> String -> Adult
+-- ghci> :print adult1
+-- adult1 = (_t1::Adult)
 -- ghci> :r
 -- [1 of 1] Compiling Data1            ( Data1.hs, interpreted )
 -- Ok, one module loaded.
