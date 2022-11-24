@@ -30,7 +30,7 @@ https://github.com/tc50cal/vim-terminal
 
 <br>
 
-# WindowsOS 실행창에서 Windows Terminal 파로 불러오기(파워셀 내장됨)바로 불러오기
+# WindowsOS 실행창에서 Windows Terminal (파워셀 내장됨)바로 실행하기
 
 - win + r
 
