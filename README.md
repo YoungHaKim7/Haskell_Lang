@@ -114,6 +114,81 @@ $ ghcup tui
 
 <br>
 
+- 또는 ghcup list
+
+```
+$ ghcup list
+
+[ Info  ] downloading: https://raw.githubusercontent.com/haskell/ghcup-metadata/master/ghcup-0.0.7.yaml as file C:\ghcup\cache\ghcup-0.0.7.yaml
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  191k  100  191k    0     0   354k      0 --:--:-- --:--:-- --:--:--  355k
+[ Warn  ] New ghc version available. To upgrade, run 'ghcup install ghc 9.4.3'
+[ Warn  ] New cabal version available. To upgrade, run 'ghcup install cabal 3.8.1.0'
+[ Info  ] verifying digest of: gs.exe
+   Tool  Version  Tags                      Notes
+X  ghc   7.10.3   base-4.8.2.0
+X  ghc   8.0.2    base-4.9.1.0
+X  ghc   8.2.2    base-4.10.1.0
+X  ghc   8.4.1    base-4.11.0.0
+X  ghc   8.4.2    base-4.11.1.0
+X  ghc   8.4.3    base-4.11.1.0
+X  ghc   8.4.4    base-4.11.1.0
+X  ghc   8.6.1    base-4.12.0.0
+X  ghc   8.6.2    base-4.12.0.0
+X  ghc   8.6.3    base-4.12.0.0
+X  ghc   8.6.4    base-4.12.0.0
+X  ghc   8.6.5    base-4.12.0.0
+X  ghc   8.8.1    base-4.13.0.0
+X  ghc   8.8.2    base-4.13.0.0
+X  ghc   8.8.3    base-4.13.0.0
+X  ghc   8.8.4    base-4.13.0.0
+X  ghc   8.10.1   base-4.14.0.0
+X  ghc   8.10.2   base-4.14.1.0
+X  ghc   8.10.3   base-4.14.1.0
+X  ghc   8.10.4   base-4.14.1.0
+X  ghc   8.10.5   base-4.14.2.0
+X  ghc   8.10.6   base-4.14.3.0
+X  ghc   8.10.7   base-4.14.3.0             hls-powered
+X  ghc   9.0.1    base-4.15.0.0
+X  ghc   9.0.2    base-4.15.1.0             hls-powered
+X  ghc   9.2.1    base-4.16.0.0
+X  ghc   9.2.2    base-4.16.1.0
+X  ghc   9.2.3    base-4.16.2.0             hls-powered
+X  ghc   9.2.4    base-4.16.3.0             hls-powered
+IS ghc   9.2.5    recommended,base-4.16.4.0
+X  ghc   9.4.1    base-4.17.0.0             hls-powered
+X  ghc   9.4.2    base-4.17.0.0             hls-powered
+X  ghc   9.4.3    latest,base-4.17.0.0
+X  cabal 2.4.1.0
+X  cabal 3.0.0.0
+X  cabal 3.2.0.0
+X  cabal 3.4.0.0
+X  cabal 3.4.1.0
+X  cabal 3.6.0.0
+IS cabal 3.6.2.0  recommended
+X  cabal 3.8.1.0  latest
+X  hls   1.1.0
+X  hls   1.2.0
+X  hls   1.3.0
+X  hls   1.4.0
+X  hls   1.5.0
+X  hls   1.5.1
+X  hls   1.6.0.0
+X  hls   1.6.1.0
+X  hls   1.7.0.0
+IS hls   1.8.0.0  latest,recommended
+X  stack 2.5.1
+X  stack 2.7.1
+X  stack 2.7.3
+X  stack 2.7.5
+IS stack 2.9.1    latest,recommended
+IS ghcup 0.1.18.0 latest,recommended
+
+```
+
+<br>
+
 # Haskell_Lang
 
 - 설치하는 법(macOS 기준)
