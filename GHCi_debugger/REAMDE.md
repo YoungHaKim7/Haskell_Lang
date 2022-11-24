@@ -490,3 +490,37 @@ Leaving GHCi.
 ```
 
 <br>
+
+# break & break 지우기 delete 활용법 
+
+```
+
+-- ghci Sort.hs
+-- ❯ ghci Sort.hs
+-- GHCi, version 9.2.4: https://www.haskell.org/ghc/  :? for help
+-- [1 of 1] Compiling Sort             ( Sort.hs, interpreted )
+-- Ok, one module loaded.
+-- ghci> :br sort
+-- :br sort
+-- Breakpoint 0 activated at Sort.hs:4:11-12
+-- Breakpoint 1 activated at Sort.hs:5:15-32
+-- ghci> :br 8
+-- :br 8
+-- Breakpoint 2 activated at Sort.hs:8:15-17
+-- ghci> :show breaks
+-- :show breaks
+-- [0] Sort Sort.hs:4:11-12 enabled
+-- [1] Sort Sort.hs:5:15-32 enabled
+-- [2] Sort Sort.hs:8:15-17 enabled
+-- ghci> :delete 1,2
+-- :delete 1,2
+-- ghci> :delete *
+-- :delete *
+-- ghci> :show breaks
+-- :show breaks
+-- No active breakpoints.
+-- ghci>
+```
+
+<br>
+
