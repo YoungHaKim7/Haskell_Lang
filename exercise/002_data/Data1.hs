@@ -1,7 +1,6 @@
 -- https://wiki.haskell.org/Constructor
 -- https://github.com/MondayMorningHaskell/haskellings/blob/master/exercises/data/Data1.hs
 module Data1 where
-import GHC.Show
 
 data Adult = Adult String String Int String
 data Child = Child String Int Int 
