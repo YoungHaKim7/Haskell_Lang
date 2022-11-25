@@ -16,7 +16,7 @@ insert x (y:ys) | x < y     = x:y:ys
 -- :continue - Run to the next break point
 -- HaskellerZ - October 2019 - Roland Senn - The GHCi debugger
 -- https://youtu.be/L7QZwH_844s
--- PS D:\young_project\haskell_lang\Haskell_Lang\GHCi_debugger\001_sort_precalculated> ghci .\Sort.hs
+-- PS 001_sort_precalculated> ghci .\Sort.hs
 -- GHCi, version 9.2.5: https://www.haskell.org/ghc/  :? for help
 -- [1 of 1] Compiling Sort             ( Sort.hs, interpreted )
 -- Ok, one module loaded.
