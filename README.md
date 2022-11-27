@@ -1,10 +1,20 @@
 # Vim Coc 관리하기 
 
-- :CocList serveces
+- 서버가 잘 돌아가는 체크하기 
+:CocList services
+
+<br>
+
+<hr>
 
 - Haskell ServerSetting
 
-- :CocConfig
+```
+:CocConfig
+```
+
+<br>
+
 
 ```
 {
@@ -38,6 +48,7 @@
   "rust-analyzer.procMacro.enable": true,
   "rust-analyzer.lens.enable": true,
   "rust-analyzer.lens.implementations.enable": true,
+
   "languageserver": {
     "haskell": {
       "command": "haskell-language-server-wrapper",
@@ -60,6 +71,11 @@
   }
 }
 
+```
+- 내 프로그젝 파일에만 넣어야 하나 
+
+```
+:CocLocalConfig
 ```
 
 https://johngrib.github.io/wiki/vim/coc-nvim/
