@@ -1,7 +1,11 @@
 # Vim Coc 관리하기 
 
 - 서버가 잘 돌아가는 체크하기 
+
+```
 :CocList services
+
+```
 
 <br>
 
