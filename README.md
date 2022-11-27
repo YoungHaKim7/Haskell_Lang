@@ -1,3 +1,75 @@
+# Vim Coc 관리하기 
+
+- :CocList serveces
+
+- Haskell ServerSetting
+
+- :CocConfig
+
+```
+{
+//  "workbench.colorCustomizations": {
+//    // Name of the theme you are currently using
+//    "[Default Dark+]": {
+//      "editorInlayHint.foreground": "#868686f0",
+//      "editorInlayHint.background": "#f700d6",
+//
+//      // Overrides for specific kinds of inlay hints
+//      "editorInlayHint.typeForeground": "#f700d6",
+//      "editorInlayHint.parameterForeground": "#fdb6fdf0",
+//    }
+  //}
+  "workbench.colorCustomizations": {
+      "[Default Dark+]": {
+          "editorInlayHint.foreground": "#868686f0",
+          "editorInlayHint.background": "#f700d6",
+      "editorInlayHint.typeForeground": "#f700d6",
+      "editorInlayHint.parameterForeground": "#fdb6fdf0",
+      }
+  },
+  "workspace.workspaceFolderFallbackCwd": true",
+  "rust-analyzer.semanticHighlighting.operator.specialization.enable": true,
+  "rust-analyzer.inlayHints.typeHints.enable": true,
+  "rust-analyzer.hover.documentation.enable": true,
+  
+  // rust-analyzer setting~
+  "rust-analyzer.inlayHints.enable": true,
+  // "rust-analyzer.cargo.loadOutDirsFromCheck": true,
+  "rust-analyzer.procMacro.enable": true,
+  "rust-analyzer.lens.enable": true,
+  "rust-analyzer.lens.implementations.enable": true,
+  "languageserver": {
+    "haskell": {
+      "command": "haskell-language-server-wrapper",
+      "args": ["--lsp"],
+      "rootPatterns": ["*.cabal", "stack.yaml", "cabal.project", "package.yaml", "hie.yaml"],
+      "filetypes": ["haskell", "lhaskell"],
+      // Settings are optional, here are some example values
+      "settings": {
+        "haskell": {
+          "checkParents": "CheckOnSave",
+          "checkProject": true,
+          "maxCompletions": 40,
+          "formattingProvider": "ormolu",
+          "plugin": {
+            "stan": { "globalOn": true }
+          }
+        }
+      }
+    }
+  }
+}
+
+```
+
+https://johngrib.github.io/wiki/vim/coc-nvim/
+
+<br>
+
+<hr>
+
+
+
 # vim 창 나누기
 ```
 :vs 좌우로 나누기
