@@ -111,6 +111,8 @@ $ ghci test.hs
 
 ```
 :terminal powershell.exe
+
+:terminal pwsh.exe
 ```
 
 <br>
