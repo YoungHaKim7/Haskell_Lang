@@ -630,3 +630,8 @@ https://ebookfoundation.github.io/free-programming-books/
 # Haskell Cabal install
 
 https://hackage.haskell.org/package/cabal-install
+
+
+# Yesod-tutorial-for-newbies
+
+https://yannesposito.com/Scratch/en/blog/Yesod-tutorial-for-newbies/
