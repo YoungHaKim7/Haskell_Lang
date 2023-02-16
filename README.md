@@ -632,6 +632,6 @@ https://ebookfoundation.github.io/free-programming-books/
 https://hackage.haskell.org/package/cabal-install
 
 
-# Yesod-tutorial-for-newbies
+# Haskell web programming__(Yesod-tutorial-for-newbies)
 
 https://yannesposito.com/Scratch/en/blog/Yesod-tutorial-for-newbies/
