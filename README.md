@@ -626,3 +626,7 @@ https://ebookfoundation.github.io/free-programming-books/
     - https://hackage.haskell.org/
 
 <br>
+
+# Haskell Cabal install
+
+https://hackage.haskell.org/package/cabal-install
