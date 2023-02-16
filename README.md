@@ -614,4 +614,15 @@ https://ebookfoundation.github.io/free-programming-books/
 
 <br>
 
+
+
 <hr>
+
+# Hackage: The Haskell Package Repository
+
+
+  - Hackage is the Haskell community's central package archive of open source software. Hackage has been online since January 2007 and is constantly growing. You can publish libraries and programs or download and install packages with tools like cabal-install (or via your distro's package manager).
+
+    - https://hackage.haskell.org/
+
+<br>
