@@ -648,6 +648,12 @@ pwsh.exe
 
 <hr>
 
+# Big-O Complexity Chart
+
+https://www.bigocheatsheet.com/
+
+<br>
+
 
 # My Desmos Graphs
 
