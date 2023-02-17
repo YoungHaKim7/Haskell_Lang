@@ -1,158 +1,3 @@
-# Vim Coc 관리하기 
-
-- 서버가 잘 돌아가는 체크하기 
-
-```
-:CocList services
-
-```
-
-<br>
-
-<hr>
-
-- Haskell ServerSetting
-
-```
-:CocConfig
-```
-
-<br>
-
-
-```
-{
-//  "workbench.colorCustomizations": {
-//    // Name of the theme you are currently using
-//    "[Default Dark+]": {
-//      "editorInlayHint.foreground": "#868686f0",
-//      "editorInlayHint.background": "#f700d6",
-//
-//      // Overrides for specific kinds of inlay hints
-//      "editorInlayHint.typeForeground": "#f700d6",
-//      "editorInlayHint.parameterForeground": "#fdb6fdf0",
-//    }
-  //}
-  "workbench.colorCustomizations": {
-      "[Default Dark+]": {
-          "editorInlayHint.foreground": "#868686f0",
-          "editorInlayHint.background": "#f700d6",
-      "editorInlayHint.typeForeground": "#f700d6",
-      "editorInlayHint.parameterForeground": "#fdb6fdf0",
-      }
-  },
-  "workspace.workspaceFolderFallbackCwd": true",
-  "rust-analyzer.semanticHighlighting.operator.specialization.enable": true,
-  "rust-analyzer.inlayHints.typeHints.enable": true,
-  "rust-analyzer.hover.documentation.enable": true,
-  
-  // rust-analyzer setting~
-  "rust-analyzer.inlayHints.enable": true,
-  // "rust-analyzer.cargo.loadOutDirsFromCheck": true,
-  "rust-analyzer.procMacro.enable": true,
-  "rust-analyzer.lens.enable": true,
-  "rust-analyzer.lens.implementations.enable": true,
-
-  "languageserver": {
-    "haskell": {
-      "command": "haskell-language-server-wrapper",
-      "args": ["--lsp"],
-      "rootPatterns": ["*.cabal", "stack.yaml", "cabal.project", "package.yaml", "hie.yaml"],
-      "filetypes": ["haskell", "lhaskell"],
-      // Settings are optional, here are some example values
-      "settings": {
-        "haskell": {
-          "checkParents": "CheckOnSave",
-          "checkProject": true,
-          "maxCompletions": 40,
-          "formattingProvider": "ormolu",
-          "plugin": {
-            "stan": { "globalOn": true }
-          }
-        }
-      }
-    }
-  }
-}
-
-```
-- 내 프로그젝 파일에만 넣어야 하나 
-
-```
-:CocLocalConfig
-```
-
-https://johngrib.github.io/wiki/vim/coc-nvim/
-
-<br>
-
-<hr>
-
-
-
-# vim 창 나누기
-```
-:vs 좌우로 나누기
-
-:sp 상단하단 나누기
-
-:terminal
-
-$ stack repl test.hs
-
-or
-
-$ ghci test.hs
-
-
-```
-
-# vim 창 나눌때 WindowsOS gVim에서 PowerShell불러오기
-
-```
-:terminal powershell.exe
-
-:terminal pwsh.exe
-```
-
-<br>
-
-- A Vim plugin that opens an interactive terminal in a buffer for running programs
-
-https://github.com/tc50cal/vim-terminal
-
-
-<br>
-
-<hr>
-
-# WindowsOS 실행창에서 Windows Terminal (파워셀 내장됨)바로 실행하기
-
-- win + r
-
-```
-wt.exe
-```
-
-- 실행할 때 'ctrl + shift + enter' 하면 그냥 엔터랑 다르게 권리자 권한으로 실행된다.
-
- https://zkim0115.tistory.com/1629
-
-<br>
-
-<hr>
-
-# WIndows PowerShell Command
-
-
-https://learn.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=powershell
-
-<br>
-
-<hr>
-
-
-
 # Haskell CheatSheet
 
 - 버젼별로 다 있다.
@@ -635,3 +480,158 @@ https://hackage.haskell.org/package/cabal-install
 # Haskell web programming__(Yesod-tutorial-for-newbies)
 
 https://yannesposito.com/Scratch/en/blog/Yesod-tutorial-for-newbies/
+
+# Vim Coc 관리하기 
+
+- 서버가 잘 돌아가는 체크하기 
+
+```
+:CocList services
+
+```
+
+<br>
+
+<hr>
+
+- Haskell ServerSetting
+
+```
+:CocConfig
+```
+
+<br>
+
+
+```
+{
+//  "workbench.colorCustomizations": {
+//    // Name of the theme you are currently using
+//    "[Default Dark+]": {
+//      "editorInlayHint.foreground": "#868686f0",
+//      "editorInlayHint.background": "#f700d6",
+//
+//      // Overrides for specific kinds of inlay hints
+//      "editorInlayHint.typeForeground": "#f700d6",
+//      "editorInlayHint.parameterForeground": "#fdb6fdf0",
+//    }
+  //}
+  "workbench.colorCustomizations": {
+      "[Default Dark+]": {
+          "editorInlayHint.foreground": "#868686f0",
+          "editorInlayHint.background": "#f700d6",
+      "editorInlayHint.typeForeground": "#f700d6",
+      "editorInlayHint.parameterForeground": "#fdb6fdf0",
+      }
+  },
+  "workspace.workspaceFolderFallbackCwd": true",
+  "rust-analyzer.semanticHighlighting.operator.specialization.enable": true,
+  "rust-analyzer.inlayHints.typeHints.enable": true,
+  "rust-analyzer.hover.documentation.enable": true,
+  
+  // rust-analyzer setting~
+  "rust-analyzer.inlayHints.enable": true,
+  // "rust-analyzer.cargo.loadOutDirsFromCheck": true,
+  "rust-analyzer.procMacro.enable": true,
+  "rust-analyzer.lens.enable": true,
+  "rust-analyzer.lens.implementations.enable": true,
+
+  "languageserver": {
+    "haskell": {
+      "command": "haskell-language-server-wrapper",
+      "args": ["--lsp"],
+      "rootPatterns": ["*.cabal", "stack.yaml", "cabal.project", "package.yaml", "hie.yaml"],
+      "filetypes": ["haskell", "lhaskell"],
+      // Settings are optional, here are some example values
+      "settings": {
+        "haskell": {
+          "checkParents": "CheckOnSave",
+          "checkProject": true,
+          "maxCompletions": 40,
+          "formattingProvider": "ormolu",
+          "plugin": {
+            "stan": { "globalOn": true }
+          }
+        }
+      }
+    }
+  }
+}
+
+```
+- 내 프로그젝 파일에만 넣어야 하나 
+
+```
+:CocLocalConfig
+```
+
+https://johngrib.github.io/wiki/vim/coc-nvim/
+
+<br>
+
+<hr>
+
+
+
+# vim 창 나누기
+```
+:vs 좌우로 나누기
+
+:sp 상단하단 나누기
+
+:terminal
+
+$ stack repl test.hs
+
+or
+
+$ ghci test.hs
+
+
+```
+
+# vim 창 나눌때 WindowsOS gVim에서 PowerShell불러오기
+
+```
+:terminal powershell.exe
+
+:terminal pwsh.exe
+```
+
+<br>
+
+- A Vim plugin that opens an interactive terminal in a buffer for running programs
+
+https://github.com/tc50cal/vim-terminal
+
+
+<br>
+
+<hr>
+
+# WindowsOS 실행창에서 Windows Terminal (파워셀 내장됨)바로 실행하기
+
+- win + r
+
+```
+wt.exe
+```
+
+- 실행할 때 'ctrl + shift + enter' 하면 그냥 엔터랑 다르게 권리자 권한으로 실행된다.
+
+ https://zkim0115.tistory.com/1629
+
+<br>
+
+<hr>
+
+# WIndows PowerShell Command
+
+
+https://learn.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=powershell
+
+<br>
+
+<hr>
+
+
