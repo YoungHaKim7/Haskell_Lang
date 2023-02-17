@@ -633,11 +633,17 @@ wt.exe
 
 <hr>
 
-# WIndows PowerShell Command
+# Windows PowerShell Command
 
 
 https://learn.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=powershell
 
+```
+powershell.exe
+
+pwsh.exe
+
+```
 <br>
 
 <hr>
