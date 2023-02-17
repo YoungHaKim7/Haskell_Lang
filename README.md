@@ -20,6 +20,10 @@ https://github.com/rudymatela/concise-cheat-sheets
 
 <br>
 
+# Haskell-language-server
+
+https://haskell-language-server.readthedocs.io/en/latest/index.html
+
 # Haskell In 3 hours
 
 https://www-ps.informatik.uni-kiel.de/~sebf/haskellIn3hours.pdf
