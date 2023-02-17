@@ -187,6 +187,12 @@ brew install ghc cabal-install haskell-stack
 
 https://hackage.haskell.org/package/hasktags
 
+```
+cabal install hasktags
+```
+
+https://stackoverflow.com/questions/59817728/how-to-use-hasktags-package-for-haskell
+
 <br>
 
 # ghci 간단한 사용법
