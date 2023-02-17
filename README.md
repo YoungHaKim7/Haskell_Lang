@@ -152,6 +152,13 @@ IS ghcup 0.1.18.0 latest,recommended
 
 <br>
 
+# Windows OS haskell install
+
+https://www.haskell.org/ghcup/install/
+
+
+<br>
+
 # Haskell_Lang
 
 - 설치하는 법(macOS 기준)
