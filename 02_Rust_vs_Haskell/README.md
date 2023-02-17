@@ -1,3 +1,3 @@
-# Rust<a href="https://github.com/rust-ml/linfa"><img alt="rustmascot" width="26px" src="https://user-images.githubusercontent.com/67513038/213403213-1b1b3efc-ce53-4825-9dfc-e9bf2956a7f4.svg" /></a> vs Haskell
+# Rust<a href="https://www.rust-lang.org/"><img alt="rust1" width="26px" src="https://user-images.githubusercontent.com/67513038/213436632-820a1675-98d9-4626-979d-be63c60cdcb7.png" /></a> vs Haskell
 
 https://serokell.io/blog/rust-vs-haskell
