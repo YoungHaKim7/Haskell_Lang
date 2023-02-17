@@ -404,6 +404,10 @@ Press any key to exit
 
 ```
 
+# ghcup step by step
+
+https://www.haskell.org/ghcup/steps/
+
 <br>
 
 # haskell code 예시
