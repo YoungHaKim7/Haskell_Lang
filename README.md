@@ -415,6 +415,10 @@ Press any key to exit
 
 https://www.haskell.org/ghcup/steps/
 
+# haskell input and output
+
+http://learnyouahaskell.com/input-and-output
+
 <br>
 
 # haskell code 예시
