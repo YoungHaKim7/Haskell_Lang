@@ -809,3 +809,6 @@ Have fun!
 
 ✓ Finished in 4m 54s
 
+# emacs
+
+http://haskell.github.io/haskell-mode/manual/latest/Installation.html#Installation
