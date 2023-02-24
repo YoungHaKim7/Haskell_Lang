@@ -67,6 +67,12 @@ http://learnyouahaskell.com/chapters
 
 <br>
 
+## Learn Haskell by building a blog generator
+
+https://lhbg-book.link/
+
+<br>
+
 # Introduction to Cabal
 
 https://youtu.be/a7R-2vtPLDM
