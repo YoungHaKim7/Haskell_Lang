@@ -14,6 +14,9 @@ https://serokell.io/blog/rust-vs-haskell
 
 https://youtube.com/playlist?list=PLe7Ei6viL6jGp1Rfu0dil1JH1SHk9bgDV
 
+- 모나드Monads 이해하기 https://economiceco.tistory.com/18187
+  - Haskell for Imperative Programmers #17 - Monads https://youtu.be/IBB7JpbClo8
+
 # Haskell CheatSheet
 
 - 버젼별로 다 있다.
