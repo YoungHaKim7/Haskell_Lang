@@ -35,6 +35,8 @@ https://www.futurelearn.com/info/courses/functional-programming-haskell/0/steps/
 
 - https://en.wikipedia.org/wiki/Monoid
   -  In abstract algebra, a branch of mathematics, a monoid is a set equipped with an associative binary operation and an identity element. For example, the nonnegative integers with addition form a monoid, the identity element being 0.
+ 
+  ![Algebraic_structures_-_magma_to_group](https://github.com/YoungHaKim7/Cpp_Training/assets/67513038/6c87861b-4c5d-4f98-8f05-1102da2e94c2)
 
 <hr>
 
