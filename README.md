@@ -16,6 +16,9 @@ https://youtube.com/playlist?list=PLe7Ei6viL6jGp1Rfu0dil1JH1SHk9bgDV
 
 - 모나드Monads 이해하기 https://economiceco.tistory.com/18187
   - Haskell for Imperative Programmers #17 - Monads https://youtu.be/IBB7JpbClo8
+- 13분 35초
+![2](https://github.com/YoungHaKim7/Cpp_Training/assets/67513038/95a8230e-2497-4e9c-bc60-d85536c41937)
+
 
 # Haskell CheatSheet
 
