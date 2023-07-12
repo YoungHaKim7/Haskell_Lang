@@ -38,6 +38,10 @@ https://www.futurelearn.com/info/courses/functional-programming-haskell/0/steps/
  
   ![Algebraic_structures_-_magma_to_group](https://github.com/YoungHaKim7/Cpp_Training/assets/67513038/6c87861b-4c5d-4f98-8f05-1102da2e94c2)
 
+- Monadic lenses are the optic for right monad modules III
+
+  - https://julesh.com/2023/06/28/monadic-lenses-are-the-optic-for-right-monad-modules-iii/
+
 <hr>
 
 # Haskell CheatSheet
