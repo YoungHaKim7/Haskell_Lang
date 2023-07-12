@@ -19,6 +19,17 @@ https://youtube.com/playlist?list=PLe7Ei6viL6jGp1Rfu0dil1JH1SHk9bgDV
 - 13분 35초
 ![2](https://github.com/YoungHaKim7/Cpp_Training/assets/67513038/95a8230e-2497-4e9c-bc60-d85536c41937)
 
+# What is a Monad?
+
+- A monad is an algebraic structure in category theory, and in Haskell it is used to describe computations as sequences of steps, and to handle side effects such as state and IO.
+
+- Monads are abstract, and they have many useful concrete instances.
+
+- Monads provide a way to structure a program.
+
+- They can be used (along with abstract data types) to allow actions (e.g. mutable variables) to be implemented safely.
+
+https://www.futurelearn.com/info/courses/functional-programming-haskell/0/steps/27246
 
 # Haskell CheatSheet
 
