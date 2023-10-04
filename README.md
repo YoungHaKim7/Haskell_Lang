@@ -1,3 +1,10 @@
+<p align="center">
+  <img width=120px src="https://user-images.githubusercontent.com/67513038/204034727-e2a992fc-6392-4dc4-8846-843f0c1a31c9.png" />
+</p>
+
+
+<hr>
+
 # Try Haskell 온라인에서 간단한 코드 실행 가능
 
 https://www.tryhaskell.org/
