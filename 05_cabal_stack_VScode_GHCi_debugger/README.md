@@ -9,6 +9,9 @@ https://stackoverflow.com/questions/49959032/debugging-haskell-in-vs-code
 - VSCode하스켈 세팅
   - https://stackoverflow.com/questions/74759150/haskell-extension-for-vscode-not-working-on-linux
 
+- Debugging gi-gtk with VsCode on Windows
+  - https://discourse.haskell.org/t/debugging-gi-gtk-with-vscode-on-windows/7514
+
 <hr>
 
 # 일반적인 Debugging 프로그램 이건 만든거 같은데Front-end of a Debugger for Compiled Programs in Haskell
