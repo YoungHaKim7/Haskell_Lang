@@ -1,3 +1,9 @@
+# VSCode로 하스켈 디버깅 하기
+
+https://stackoverflow.com/questions/49959032/debugging-haskell-in-vs-code
+
+<hr>
+
 # 일반적인 Debugging 프로그램 이건 만든거 같은데Front-end of a Debugger for Compiled Programs in Haskell
 
 https://youtu.be/5H1SAfIdJfw?si=SgMEol9WCr4RgX_X
