@@ -2,6 +2,9 @@
 
 https://youtu.be/5H1SAfIdJfw?si=SgMEol9WCr4RgX_X
 
+- Debugging space leaks in haskell-ide-engine
+  - https://youtu.be/PL8Wjdt0cKo?si=1Aa1S9Hmzbwiv6Ym
+
 <hr>
 
 # HaskellerZ - October 2019 - Roland Senn - The GHCi debugger
