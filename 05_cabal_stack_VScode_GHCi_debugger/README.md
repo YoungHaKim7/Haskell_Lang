@@ -1,5 +1,34 @@
 # VSCode로 하스켈 디버깅 하기
 
+- cabal 은 디버깅 성공
+
+```
+// Cabal
+
+// Install ghci-dap, haskell-debug-adapter.
+
+$ cabal update
+$
+$ cabal install ghci-dap haskell-debug-adapter
+$
+$ haskell-debug-adapter --version
+VERSION: haskell-debug-adapter-0.0.XX.0
+$
+
+// Cabal project
+
+$ mkdir project_cabal
+$ cd project_cabal
+$
+$ cabal init
+$ cabal configure
+$ cabal bulid
+$
+
+```
+출처 : https://marketplace.visualstudio.com/items?itemName=phoityne.phoityne-vscode
+
+
 - 이거 쓰면 된다.
   - https://marketplace.visualstudio.com/items?itemName=phoityne.phoityne-vscode
     - 하스켈 공식 패키지 채널 https://hackage.haskell.org/package/phoityne-vscode
