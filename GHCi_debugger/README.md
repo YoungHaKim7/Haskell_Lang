@@ -1,3 +1,9 @@
+# 일반적인 Debugging 프로그램 이건 만든거 같은데Front-end of a Debugger for Compiled Programs in Haskell
+
+https://youtu.be/5H1SAfIdJfw?si=SgMEol9WCr4RgX_X
+
+<hr>
+
 # HaskellerZ - October 2019 - Roland Senn - The GHCi debugger
 
 https://youtu.be/L7QZwH_844s
