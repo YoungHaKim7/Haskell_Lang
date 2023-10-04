@@ -5,6 +5,38 @@
 
 <hr>
 
+# ```.gitignore``` Haskell gitignore
+
+https://github.com/github/gitignore
+
+```gitignore
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.hie
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+
+```
+
+
 # Try Haskell 온라인에서 간단한 코드 실행 가능
 
 https://www.tryhaskell.org/
