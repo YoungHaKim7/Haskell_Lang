@@ -2,6 +2,10 @@
 
 http://learnyouahaskell.com/chapters
 
+- Haskell First steps
+
+  - https://www.haskell.org/ghcup/steps/
+
 <hr>
 
 # Learn Haskell Fast and Hard - Yann Esposito
