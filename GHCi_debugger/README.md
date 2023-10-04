@@ -1,5 +1,7 @@
 # VSCode로 하스켈 디버깅 하기
 
+- 이거 쓰면 된다. https://marketplace.visualstudio.com/items?itemName=phoityne.phoityne-vscode
+
 https://stackoverflow.com/questions/49959032/debugging-haskell-in-vs-code
 
 - VSCode하스켈 세팅
