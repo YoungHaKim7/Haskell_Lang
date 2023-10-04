@@ -2,6 +2,10 @@
 
 http://learnyouahaskell.com/chapters
 
+## 1. GHCup 설치  하스켈 설치를 위한 
+
+- 자바 sdk 같은거 여러가지를 다 관리 할 수 있어요 ^^.
+
 - Haskell First steps
 
   - https://www.haskell.org/ghcup/steps/
