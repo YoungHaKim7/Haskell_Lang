@@ -1,3 +1,9 @@
+# 완전 초보 부터 Haskell 배우기
+
+http://learnyouahaskell.com/chapters
+
+<hr>
+
 # Learn Haskell Fast and Hard - Yann Esposito
 
 http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way/
