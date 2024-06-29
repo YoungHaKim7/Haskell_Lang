@@ -1,3 +1,10 @@
+# Haskell Programming Full Course 2024 | Bek Brace
+
+- https://youtu.be/TklkNLihQ_A?si=fDEjJq09442NT-3f
+
+<hr>
+
+
 # 완전 초보 부터 Haskell 배우기
 
 http://learnyouahaskell.com/chapters
