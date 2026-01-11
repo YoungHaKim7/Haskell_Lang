@@ -36,6 +36,14 @@ cabal.project.local~
 
 ```
 
+# Haskell library for the Microsoft Language Server Protocol 
+- https://github.com/haskell/lsp
+
+- Install
+```bash
+cabal install lsp-demo-simple-server lsp-demo-reactor-server
+stack install :lsp-demo-simple-server :lsp-demo-reactor-server --flag haskell-lsp:demo
+```
 
 # Try Haskell 온라인에서 간단한 코드 실행 가능
 
