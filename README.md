@@ -5,6 +5,9 @@
 
 <hr>
 
+# haskell playground
+- https://play.haskell.org/
+
 # ```.gitignore``` Haskell gitignore
 
 https://github.com/github/gitignore
