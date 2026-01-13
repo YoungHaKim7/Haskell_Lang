@@ -10,9 +10,9 @@
 # haskell Linux Install
 
 - 우선 ghcup설치
+  - https://www.haskell.org/ghcup/
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
-
 ```
 
 - lsp
