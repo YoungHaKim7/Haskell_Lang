@@ -1,3 +1,15 @@
+#  프로젝트 init
+
+```bash
+$ mkdir 내가 만들고 싶은 폴더명
+
+To start a new haskell project in the current directory, run:
+$ cabal init --interactive
+  
+# 실행
+$ cabal run
+```
+
 # justfile
 
 ```justfile
