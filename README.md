@@ -7,6 +7,9 @@
 
 <hr>
 
+# windows (WSL1)지원안함.. 무조건 WSL2로 업그레이드 하세요
+- https://learn.microsoft.com/ko-kr/windows/wsl/compare-versions
+
 # Install Dependencies
 - https://www.haskell.org/ghcup/install/#system-requirements
 
