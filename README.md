@@ -2,6 +2,8 @@
   <img width=120px src="https://user-images.githubusercontent.com/67513038/204034727-e2a992fc-6392-4dc4-8846-843f0c1a31c9.png" />
 </p>
 
+# link
+- [(영상모아보기)코딩_Haskell하스켈 by GlobalYoung](https://youtube.com/playlist?list=PLcMveqN_07mb05Hf9KqAdvAlYuLyUNxHq&si=_iPndKxHm-OfA7eh)
 
 <hr>
 
