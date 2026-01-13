@@ -40,6 +40,24 @@ ghcup installs only into the following directory,
 which can be removed anytime:
   /home/y/.ghcup
 ```
+
+# Init Project Haskell
+
+```bash
+All done!
+
+To start a simple repl, run:
+  ghci
+
+To start a new haskell project in the current directory, run:
+  cabal init --interactive
+
+To install other GHC versions and tools, run:
+  ghcup tui
+
+If you are new to Haskell, check out https://www.haskell.org/ghcup/steps/
+```
+
 # haskell playground
 - https://play.haskell.org/
 
