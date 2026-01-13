@@ -22,6 +22,21 @@ curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
   - https://haskell-language-server.readthedocs.io/en/stable/
   - lsp binary https://github.com/haskell/haskell-language-server/releases
 
+- 구성요소(ghcup, ghc, cabal, stack, hls)(linuxOS기준)
+```bash
+Welcome to Haskell!
+
+This script can download and install the following binaries:
+  * ghcup - The Haskell toolchain installer
+  * ghc   - The Glasgow Haskell Compiler
+  * cabal - The Cabal build tool for managing Haskell software
+  * stack - A cross-platform program for developing Haskell projects (similar to cabal)
+  * hls   - (optional) A language server for developers to integrate with their editor/IDE
+
+ghcup installs only into the following directory,
+which can be removed anytime:
+  /home/y/.ghcup
+```
 # haskell playground
 - https://play.haskell.org/
 
