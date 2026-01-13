@@ -7,6 +7,9 @@
 
 <hr>
 
+# Install Dependencies
+- https://www.haskell.org/ghcup/install/#system-requirements
+
 # haskell Linux Install
 
 - 우선 ghcup설치
