@@ -17,6 +17,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
 - lsp
   - https://haskell-language-server.readthedocs.io/en/stable/
+  - lsp binary https://github.com/haskell/haskell-language-server/releases
 
 # haskell playground
 - https://play.haskell.org/
