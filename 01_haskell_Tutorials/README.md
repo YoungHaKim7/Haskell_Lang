@@ -1,3 +1,6 @@
+# 개발 하는 과정 한눈에 그래프로 이쁘게 보기
+- https://www.haskell.org/ghcup/dev/#module-graph
+
 # Haskell Programming Full Course 2024 | Bek Brace
 
 - https://youtu.be/TklkNLihQ_A?si=fDEjJq09442NT-3f
