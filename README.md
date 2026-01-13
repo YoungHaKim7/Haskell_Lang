@@ -5,6 +5,17 @@
 
 <hr>
 
+# haskell Linux Install
+
+- 우선 ghcup설치
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+
+```
+
+- lsp
+  - https://haskell-language-server.readthedocs.io/en/stable/
+
 # haskell playground
 - https://play.haskell.org/
 
